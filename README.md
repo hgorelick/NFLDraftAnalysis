@@ -9,9 +9,10 @@ Consider the following facts:
     * And will likely extend that streak to 23 seasons: after an 11-5 campaign in 2017, the team is 6-7 in 2018 with three games to play.
 * The Atlanta Falcons went 42 seasons before putting together back-to-back seasons winning more than half their games.
 * Since the NFL expanded its playoffs from ten to twelve teams in 1991, the average number of teams to return to the postseason after qualifying in the previous season is 6.4 [1]. 
-<br>It’s hard to win consistently in the National Football League. 
 
-<br>[1]: https://thecomeback.com/nfl/nfl-2018-playoffs-retain-four-teams-last-year-tied-since-1991.html
+It’s hard to win consistently in the National Football League. 
+
+[1]: https://thecomeback.com/nfl/nfl-2018-playoffs-retain-four-teams-last-year-tied-since-1991.html
 
 ### The Outlier
 Within this trend of mediocrity lies the New England Patriots. The Patriots are enjoying a 19th consecutive season winning 8 or more games. With one more victory the team will extend its streak of 15 consecutive seasons winning 10 or more games. With two and three more victories the Patriots can extend its streak of 8 consecutive 11- and 12-win seasons, respectively. 
@@ -21,7 +22,8 @@ While experts debate the reasons for New England’s dynastic success, everyone 
 * 3x MVP
 * 2x Offensive Player of the Year
 * 5x Super Bowl Champion
-<br>Alone, Brady’s accomplishments make him arguably the greatest football player of all time, but he also holds the title as the greatest steal of all time. Brady was selected in the 6th round of the 2000 NFL Draft—he was the 199th overall pick.
+
+Alone, Brady’s accomplishments make him arguably the greatest football player of all time, but he also holds the title as the greatest steal of all time. Brady was selected in the 6th round of the 2000 NFL Draft—he was the 199th overall pick.
  
 ## Part 2: The Draft
 ### Background
@@ -40,16 +42,17 @@ At the end of April, nearly three months removed from the Super Bowl (the culmin
 	* Eligibility
 	    * “To be eligible for the draft, players must have been out of high school for at least three years and must have used up their college eligibility before the start of the next college football season. Underclassmen and players who have graduated before using all their college eligibility may request the league’s approval to enter the draft early.” [4]
 
-<br>[2]: Teams may trade their picks for essentially anything including, but not limited to: other picks, players, coaches, money, etc.
-<br>[3]: In March before the draft, teams are awarded compensatory picks for players lost in Free Agency. These picks range from the 3rd to 7th rounds.
-<br>[4]: https://operations.nfl.com/the-players/the-nfl-draft/the-rules-of-the-draft/
+[2]: Teams may trade their picks for essentially anything including, but not limited to: other picks, players, coaches, money, etc.
+[3]: In March before the draft, teams are awarded compensatory picks for players lost in Free Agency. These picks range from the 3rd to 7th rounds.
+[4]: https://operations.nfl.com/the-players/the-nfl-draft/the-rules-of-the-draft/
 
 ### The Issues
 Each team has many, nuanced goals when beginning the Draft. Teams have scouting departments dedicated to evaluating each draft eligible player, and it’s up to the General Manager and Head Coach to leverage this scouting data when making their selections. Although Tom Brady is the most extreme outlier, he’s not the only “all-time great” to be selected late in the Draft. Furthermore, there are outliers on the other end of the spectrum: players selected early in the Draft who underachieve relative to their draft position. 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;**Bust**
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A player who underperforms relative to his draft position
-<br>&nbsp;&nbsp;&nbsp;&nbsp;**Steal**
-<br>&nbsp;&nbsp;&nbsp;&nbsp;A player who overachieves relative to his draft position<br>
+&nbsp;&nbsp;&nbsp;&nbsp;**Bust**
+&nbsp;&nbsp;&nbsp;&nbsp;A player who underperforms relative to his draft position
+&nbsp;&nbsp;&nbsp;&nbsp;**Steal**
+&nbsp;&nbsp;&nbsp;&nbsp;A player who overachieves relative to his draft position
+
 While there are players who fall between Busts and Steals, common sense holds that the teams that finds steals and avoids busts are more likely to be successful.
  
 # Claim
@@ -135,7 +138,8 @@ Scouts rely heavily on the results of the NFL Scouting Combine. At the Combine, 
 * Broad Jump
 * 3-Cone Drill
 * 20-Yard Shuttle
-<br>A player who demonstrates elite athletic ability at the Combine can drastically improve his draft stock. Players can go from a projected 3rd – 5th  round pick to a 1st round pick. Including these results, which I collected and wanted to include, would likely make my model accurate.
+
+A player who demonstrates elite athletic ability at the Combine can drastically improve his draft stock. Players can go from a projected 3rd – 5th  round pick to a 1st round pick. Including these results, which I collected and wanted to include, would likely make my model accurate.
 
 ### Combine Sample Results
 ![Combine Sample Results](./PFRDataAnalysis/Sample%20Results%20-%20Combine.png)
