@@ -46,9 +46,9 @@ At the end of April, nearly three months removed from the Super Bowl (the culmin
 
 ### The Issues
 Each team has many, nuanced goals when beginning the Draft. Teams have scouting departments dedicated to evaluating each draft eligible player, and it’s up to the General Manager and Head Coach to leverage this scouting data when making their selections. Although Tom Brady is the most extreme outlier, he’s not the only “all-time great” to be selected late in the Draft. Furthermore, there are outliers on the other end of the spectrum: players selected early in the Draft who underachieve relative to their draft position. 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;**Bust**<br>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;**Bust**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;A player who underperforms relative to his draft position
-<br>&nbsp;&nbsp;&nbsp;&nbsp;**Steal**<br>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;**Steal**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;A player who overachieves relative to his draft position<br>
 While there are players who fall between Busts and Steals, common sense holds that the teams that finds steals and avoids busts are more likely to be successful.
  
@@ -56,92 +56,109 @@ While there are players who fall between Busts and Steals, common sense holds th
 You might think that the first players selected in the Draft were also the best players during their time in college. That sort of thinking led the Denver Broncos and Cleveland Browns selecting Tim Tebow and Johnny Manziel, respectively, in the first round. Each quarterback won the Heisman Trophy during his college career, awarded to the best player at any position in college football. Neither were successful in the NFL with Tebow’s career lasting only two years, and Manziel’s one year.
 **Therefore, I will demonstrate that there is no correlation between collegiate success and draft position.**
 
-## Data Collection and Processing
-### Data Collection
-**Python Packages**
+# Data Collection and Processing
+## Data Collection
+
+### Python Packages
 * SQLite3
-	BeautifulSoup
-	Selenium Chromedriver
-Python Modules
-	pfr_scraper.py
-	Contains the PFRScraper web-scraper class with member functions that built PFR.db
-	write_pfr_db.py
-	Contains all methods for building tables in PFR.db
-Sources
+* BeautifulSoup
+* Selenium Chromedriver
+
+### Python Modules
+* pfr_scraper.py
+	* Contains the PFRScraper web-scraper class with member functions that built PFR.db
+* write_pfr_db.py
+	* Contains all methods for building tables in PFR.db
+	
+### Sources
 I used the following sources to build PFR.db 
-	www.pro-football-reference.com
-	www.sports-reference.com/cfb
-Preprocessing
+* www.pro-football-reference.com
+* www.sports-reference.com/cfb
+
+### Preprocessing
 There was not much preprocessing required. For the most part, the websites provided clean, organized data in easily scrapable tables. The preprocessing required included:
-	Removing players with little to no statistics
-	Recalculating percentage statistics for more accurate significant digits
-Processing
-Python Packages
-	Pandas
-	Sklearn
-Python Modules
-	Processor.py
-	Contains the key functions for training the DecisionTreeClassifier, which predicts a player’s draft position given his collegiate stats.
-	Contains all graphical plotting functions
-The Database – PFR.db
-Table Name	Rows	Description	Used / Unused
-DraftedPlayers	2,428	All players drafted between 2004 – 2015	Used
-PickPredictionAccuracies	581	Contains every player drafted in the first two rounds between 2004 – 2015 and his predicted draft position	Used
-CollegeStats	2,021	The collegiate career statistics of each player in DraftedPlayers	Used
-CombinePlayers	2,174	NFL Scouting Combine data for every player who participated between 2004 – 2015	Unused
-NotOnDrafted	807	Players from DraftedPlayers who were not still on the team that drafted them after four seasons.	Unused
-PlayersPickValues	2,305	Each player in DraftedPlayers with an award score and pick value
-Unused
+* Removing players with little to no statistics
+* Recalculating percentage statistics for more accurate significant digits
 
-Sample Results
-  
-Results
+## Processing
+### Python Packages
+* Pandas
+* Sklearn
+
+### Python Modules
+* Processor.py
+	* Contains the key functions for training the DecisionTreeClassifier, which predicts a player’s draft position given his collegiate stats.
+	* Contains all graphical plotting functions
+	
+### The Database – PFR.db
+| Table Name	| Rows	| Description	| Used / Unused|
+|---------------|-------|---------------|--------------|
+|DraftedPlayers|	2,428	|All players drafted between 2004 – 2015	|Used|
+|PickPredictionAccuracies	|581	|Contains every player drafted in the first two rounds between 2004 – 2015 and his predicted draft position	|Used|
+|CollegeStats	|2,021	|The collegiate career statistics of each player in DraftedPlayers	|Used|
+|CombinePlayers	|2,174	|NFL Scouting Combine data for every player who participated between 2004 – 2015	|Unused|
+|NotOnDrafted	|807	|Players from DraftedPlayers who were not still on the team that drafted them after four seasons.	|Unused|
+|PlayersPickValues	|2,305	|Each player in DraftedPlayers with an award score and pick value |Unused|
+
+### Sample Results
+![DraftedPlayers Sample Results](./PFRDataAnalysis/Sample%20Results%20-%20DraftedPlayers.png)
+
+# Results
 Unfortunately, I was not able to use all the data I collected. But I still arrived at interesting results.
-Single Player Results
+
+## Single Player Results
 Single player results include a bar graph depicting the weights of the Decision Tree’s five most important features in predicting a player’s draft position.
-Cam Newton
- 
-Derek Anderson
 
+### Cam Newton
+![Cam Newton Sample Prediction](./PFRDataAnalysis/Sample%20Results%20-%20Cam%20Newton.png)
+
+### Derek Anderson
+![Derek Anderson Sample Prediction](./PFRDataAnalysis/Sample%20Results%20-%20Derek%20Anderson.png)
  
-All Players Results
+## All Players Results
 To further demonstrate the lack of correlation between collegiate success and draft position, I generated the following two bar charts:
-Real Pick vs. Average Difference in Predicted Pick
 
+### Real Pick vs. Average Difference in Predicted Pick
+![Real vs. Avg Diff](./PFRDataAnalysis/Real%20Pick%20vs.%20Average%20Difference%20in%20Predicted%20Pick.png)
 
-Number of Correct Predictions by Position
+### Number of Correct Predictions by Position
 Since correct prediction percentage is low, it’s more valuable to look at total correct prediction.
-
+![Num Correct by Pos](./PFRDataAnalysis/Number%20of%20Correct%20Predictions%20by%20Position.png)
  
-Future Work
-Include NFL Scouting Combine Data
+# Future Work
+
+## Include NFL Scouting Combine Data
 Scouts rely heavily on the results of the NFL Scouting Combine. At the Combine, players are broken into position groups, and then participate in six different tests to measure athletic ability:
-	40-Yard Dash
-	Vertical Jump
-	Bench Press
-	Broad Jump
-	3-Cone Drill
-	20-Yard Shuttle
+* 40-Yard Dash
+* Vertical Jump
+* Bench Press
+* Broad Jump
+* 3-Cone Drill
+* 20-Yard Shuttle
 A player who demonstrates elite athletic ability at the Combine can drastically improve his draft stock. Players can go from a projected 3rd – 5th  round pick to a 1st round pick. Including these results, which I collected and wanted to include, would likely make my model accurate.
-Combine Sample Results
+
+### Combine Sample Results
+![Combine Sample Results](./PFRDataAnalysis/Sample%20Results%20-%20Combine.png)
  
-Use Data to Predict NFL Production
+## Use Data to Predict NFL Production
 It would be extremely valuable to find a relationship between a player’s collegiate statistics and his professional statistics. This is ultimately what the draft is about: finding players who will produce at an elite level in the NFL.
-Include Players Drafted After 2015
+
+## Include Players Drafted After 2015
 I chose to not include players drafted after 2015 because they have not reached the end of their first contracts. 
-Appendix
-Pick Value Formula
-Pick Value=  AV/(Career Length)  ×(1+Round/10  + Pick/32)×Award Score
-Award Score Formula 
-Award Score= (MVPs ×7)+(POYs ×6)+(All Pros×5)+(ROY ×4)+
-(Pro Bowls  ×3)+(Pro Bowls  )
 
-Sources
-Data
-www.pro-football-reference.com
-www.sports-reference.com/cfb
+# Formulas
+## Pick Value Formula
+![Pick Val](./PFRDataAnalysis/Pick%20Value%20Formula.PNG)
 
-Machine Learning Help
-https://medium.freecodecamp.org/using-machine-learning-to-predict-the-quality-of-wines-9e2e13d7480d
+## Award Score Formula 
+![Award Score](./PFRDataAnalysis/Award%20Score%20Formula.PNG)
+
+# Sources
+## Data
+[Pro-Football Reference](www.pro-football-reference.com)
+[Sports-Reference -- CFB](www.sports-reference.com/cfb)
+
+## Machine Learning Help
+[Medium Article](https://medium.freecodecamp.org/using-machine-learning-to-predict-the-quality-of-wines-9e2e13d7480d)
 
 
