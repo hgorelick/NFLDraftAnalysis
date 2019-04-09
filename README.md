@@ -8,7 +8,7 @@ Consider the following facts:
 * The Carolina Panthers have never had consecutive winning seasons in 22 tries
     * And will likely extend that streak to 23 seasons: after an 11-5 campaign in 2017, the team is 6-7 in 2018 with three games to play.
 * The Atlanta Falcons went 42 seasons before putting together back-to-back seasons winning more than half their games.
-* Since the NFL expanded its playoffs from ten to twelve teams in 1991, the average number of teams to return to the postseason after qualifying in the previous season is 6.4 [1]. 
+* Since the NFL expanded its playoffs from ten to twelve teams in 1991, the average number of teams to return to the postseason after qualifying in the previous season is 6.4 <sup>[1]</sup>. 
 
 It’s hard to win consistently in the National Football League. 
 
@@ -32,7 +32,7 @@ At the end of April, nearly three months removed from the Super Bowl (the culmin
 ### The Rules
 * The Picks
     * 7 rounds of picks
-	* By default [2], each team receives 1 pick per round (32 picks per round [3])
+	* By default<sup>[2]</sup>, each team receives 1 pick per round (32 picks per round<sup>[3]</sup>)
 	* Total of ~254 picks
 * The Order
 	* Reverse standings of the previous season
@@ -40,7 +40,7 @@ At the end of April, nearly three months removed from the Super Bowl (the culmin
 * The Players
 	* Teams may pick eligible players to join their team in the upcoming season
 	* Eligibility
-	    * “To be eligible for the draft, players must have been out of high school for at least three years and must have used up their college eligibility before the start of the next college football season. Underclassmen and players who have graduated before using all their college eligibility may request the league’s approval to enter the draft early.” [4]
+	    * “To be eligible for the draft, players must have been out of high school for at least three years and must have used up their college eligibility before the start of the next college football season. Underclassmen and players who have graduated before using all their college eligibility may request the league’s approval to enter the draft early.” <sup>[4]</sup>
 
 [2]: Teams may trade their picks for essentially anything including, but not limited to: other picks, players, coaches, money, etc.
 
