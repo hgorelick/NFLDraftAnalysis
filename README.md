@@ -32,7 +32,7 @@ At the end of April, nearly three months removed from the Super Bowl (the culmin
 ### The Rules
 * The Picks
     * 7 rounds of picks
-	* By default<sup>[2]</sup>, each team receives 1 pick per round (32 picks per round<sup>[3]</sup>)
+	* By default<sup>[bignote]</sup>, each team receives 1 pick per round (32 picks per round<sup>[bignote]</sup>)
 	* Total of ~254 picks
 * The Order
 	* Reverse standings of the previous season
@@ -42,9 +42,9 @@ At the end of April, nearly three months removed from the Super Bowl (the culmin
 	* Eligibility
 	    * “To be eligible for the draft, players must have been out of high school for at least three years and must have used up their college eligibility before the start of the next college football season. Underclassmen and players who have graduated before using all their college eligibility may request the league’s approval to enter the draft early.” <sup>[4]</sup>
 
-[2]: Teams may trade their picks for essentially anything including, but not limited to: other picks, players, coaches, money, etc.
+[bignote]: Teams may trade their picks for essentially anything including, but not limited to: other picks, players, coaches, money, etc.
 
-[3]: In March before the draft, teams are awarded compensatory picks for players lost in Free Agency. These picks range from the 3rd to 7th rounds.
+[bignote]: In March before the draft, teams are awarded compensatory picks for players lost in Free Agency. These picks range from the 3rd to 7th rounds.
 
 [4]: https://operations.nfl.com/the-players/the-nfl-draft/the-rules-of-the-draft/
 
