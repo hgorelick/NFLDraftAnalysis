@@ -115,10 +115,10 @@ Unfortunately, I was not able to use all the data I collected. But I still arriv
 Single player results include a bar graph depicting the weights of the Decision Tree’s five most important features in predicting a player’s draft position.
 
 ### Cam Newton
-![Cam Newton Sample Prediction](./PFRDataAnalysis/Sample%20Results%20-%20Cam%20Newton.png)
+![Cam Newton Prediction](./PFRDataAnalysis/Sample%20Results%20-%20Cam%20Newton.png)
 
 ### Derek Anderson
-![Derek Anderson Sample Prediction](./PFRDataAnalysis/Sample%20Results%20-%20Derek%20Anderson.png)
+![Derek Anderson Prediction](./PFRDataAnalysis/Sample%20Results%20-%20Derek%20Anderson.png)
  
 ## All Players Results
 To further demonstrate the lack of correlation between collegiate success and draft position, I generated the following two bar charts:
