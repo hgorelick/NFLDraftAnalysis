@@ -128,6 +128,7 @@ To further demonstrate the lack of correlation between collegiate success and dr
 
 ### Number of Correct Predictions by Position
 Since correct prediction percentage is low, it’s more valuable to look at total correct prediction.
+
 ![Num Correct by Pos](./PFRDataAnalysis/Number%20of%20Correct%20Predictions%20by%20Position.png)
  
 # Future Work
