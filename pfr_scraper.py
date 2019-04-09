@@ -680,12 +680,12 @@ def find(player, db_path, table_name, stats_list):
 
 def main(text_me=False):
     if text_me:
-        account_sid = "AC64c6114c6b6f5c379eea708031324626"
-        auth_token = "4fc0775e65ee98bc6374ee669dd47fda"
+        account_sid = ""
+        auth_token = ""
         client = Client(account_sid, auth_token)
         client.messages.create(
-            to="+17046852122",
-            from_="+18645139496",
+            to="",
+            from_="",
             body="Beginning script! I'll text you when I'm finished :)"
         )
 
@@ -697,15 +697,15 @@ def main(text_me=False):
             # scraper.get_pick_value()
             # scraper.add_college_percentages(pickle.load(open("CollegePlayerStats.txt", "rb+")))
             first = client.messages.create(
-                to="+17046852122",
-                from_="+18645139496",
+                to="",
+                from_="",
                 body="Finished!"
             )
 
         except (TimeoutException, sqlite3.OperationalError,  RuntimeError, AttributeError, KeyError, TypeError) as e:
             second = client.messages.create(
-                to="+17046852122",
-                from_="+18645139496",
+                to="",
+                from_="",
                 body=f"Balls, there was an error...\n{e}"
             )
 
