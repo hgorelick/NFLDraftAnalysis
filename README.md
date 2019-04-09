@@ -8,10 +8,10 @@ Consider the following facts:
 * The Carolina Panthers have never had consecutive winning seasons in 22 tries
     * And will likely extend that streak to 23 seasons: after an 11-5 campaign in 2017, the team is 6-7 in 2018 with three games to play.
 * The Atlanta Falcons went 42 seasons before putting together back-to-back seasons winning more than half their games.
-* Since the NFL expanded its playoffs from ten to twelve teams in 1991, the average number of teams to return to the postseason after qualifying in the previous season is 6.4[^1]. 
+* Since the NFL expanded its playoffs from ten to twelve teams in 1991, the average number of teams to return to the postseason after qualifying in the previous season is 6.4 [1]. 
 It’s hard to win consistently in the National Football League. 
 
-[1]: https://thecomeback.com/nfl/nfl-2018-playoffs-retain-four-teams-last-year-tied-since-1991.html
+<br>[1]: https://thecomeback.com/nfl/nfl-2018-playoffs-retain-four-teams-last-year-tied-since-1991.html
 
 ### The Outlier
 Within this trend of mediocrity lies the New England Patriots. The Patriots are enjoying a 19th consecutive season winning 8 or more games. With one more victory the team will extend its streak of 15 consecutive seasons winning 10 or more games. With two and three more victories the Patriots can extend its streak of 8 consecutive 11- and 12-win seasons, respectively. 
@@ -30,7 +30,7 @@ At the end of April, nearly three months removed from the Super Bowl (the culmin
 ### The Rules
 * The Picks
     * 7 rounds of picks
-	* By default[2], each team receives 1 pick per round (32 picks per round[3])
+	* By default [2], each team receives 1 pick per round (32 picks per round [3])
 	* Total of ~254 picks
 * The Order
 	* Reverse standings of the previous season
@@ -38,11 +38,11 @@ At the end of April, nearly three months removed from the Super Bowl (the culmin
 * The Players
 	* Teams may pick eligible players to join their team in the upcoming season
 	* Eligibility
-	    * “To be eligible for the draft, players must have been out of high school for at least three years and must have used up their college eligibility before the start of the next college football season. Underclassmen and players who have graduated before using all their college eligibility may request the league’s approval to enter the draft early.”[^4]
+	    * “To be eligible for the draft, players must have been out of high school for at least three years and must have used up their college eligibility before the start of the next college football season. Underclassmen and players who have graduated before using all their college eligibility may request the league’s approval to enter the draft early.” [4]
 
 [2]: Teams may trade their picks for essentially anything including, but not limited to: other picks, players, coaches, money, etc.
-[3]: In March before the draft, teams are awarded compensatory picks for players lost in Free Agency. These picks range from the 3rd to 7th rounds.
-[4]: https://operations.nfl.com/the-players/the-nfl-draft/the-rules-of-the-draft/
+<br>[3]: In March before the draft, teams are awarded compensatory picks for players lost in Free Agency. These picks range from the 3rd to 7th rounds.
+<br>[4]: https://operations.nfl.com/the-players/the-nfl-draft/the-rules-of-the-draft/
 
 ### The Issues
 Each team has many, nuanced goals when beginning the Draft. Teams have scouting departments dedicated to evaluating each draft eligible player, and it’s up to the General Manager and Head Coach to leverage this scouting data when making their selections. Although Tom Brady is the most extreme outlier, he’s not the only “all-time great” to be selected late in the Draft. Furthermore, there are outliers on the other end of the spectrum: players selected early in the Draft who underachieve relative to their draft position. 
