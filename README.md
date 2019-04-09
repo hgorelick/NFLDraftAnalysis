@@ -43,7 +43,9 @@ At the end of April, nearly three months removed from the Super Bowl (the culmin
 	    * “To be eligible for the draft, players must have been out of high school for at least three years and must have used up their college eligibility before the start of the next college football season. Underclassmen and players who have graduated before using all their college eligibility may request the league’s approval to enter the draft early.” [4]
 
 [2]: Teams may trade their picks for essentially anything including, but not limited to: other picks, players, coaches, money, etc.
+
 [3]: In March before the draft, teams are awarded compensatory picks for players lost in Free Agency. These picks range from the 3rd to 7th rounds.
+
 [4]: https://operations.nfl.com/the-players/the-nfl-draft/the-rules-of-the-draft/
 
 ### The Issues
