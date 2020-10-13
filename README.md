@@ -1,5 +1,5 @@
 # NFLDraftAnalysis
-An attempt to find a correlation between collegiate performance and NFL success. Built for my final project in my databases class in Fordham University's MS in Computer Science program.
+An attempt to predict a NFL player's success based on his collegiate performance. Built for my final project in my databases class in Fordham University's MS in Computer Science program.
 
 # Introduction
 ## The Problem
